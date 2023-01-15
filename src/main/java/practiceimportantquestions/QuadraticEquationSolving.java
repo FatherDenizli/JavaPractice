@@ -7,15 +7,17 @@ public class QuadraticEquationSolving {
     public static void main(String[] args) {
 
 
-        Scanner input=new Scanngit er(System.in);
+        Scanner input=new Scanner(System.in);
         System.out.println("Pls enter First Coefficient of Quadratic Equation   a= ");
         int a= input.nextInt();
         System.out.println("Pls enter Second  Coefficient of Quadratic Equation   b=");
         int b= input.nextInt();
         System.out.println("Pls enter Third Coefficient of Quadratic Equation   c=");
         int c= input.nextInt();
+
         //x1; root1
         //x2 :root2
+
         double reel=0;
         double imaginal=0;
 
@@ -41,6 +43,7 @@ public class QuadraticEquationSolving {
             imaginal = Math.sqrt(delta) / (2 * a);
             System.out.println("x1 =" + reel);
             System.out.println("x2 =" + reel);
+
         }
     }
 

@@ -16,11 +16,14 @@ public class sumOfTheNumberOfCharacters {
     String name3="Michael Jackson";
 
     int c1=name1.replaceAll("\\s", "").length();
+
     int c2=name2.replaceAll("\\s","").length();
+
     int c3=name3.replaceAll("\\s", "").length();
 
     int c=c1+c2+c3;
-		System.out.println("Total numbers of characters diffrent from space : "+(c1+c2+c3));
+
+    System.out.println("Total numbers of characters diffrent from space : "+(c1+c2+c3));
 
 
 }

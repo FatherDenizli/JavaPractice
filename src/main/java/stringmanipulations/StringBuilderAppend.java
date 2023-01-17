@@ -21,31 +21,7 @@ public class StringBuilderAppend {
         System.out.println(strBld1);
 
 
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

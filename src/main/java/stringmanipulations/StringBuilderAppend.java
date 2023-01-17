@@ -7,21 +7,20 @@ public class StringBuilderAppend {
 
         //Example 1:
 
-        StringBuilder strBld = new StringBuilder( "6");
+        StringBuilder strBld1 = new StringBuilder( "6");
 
-        strBld.append("Java");
-        strBld.append("Learn");
+        strBld1.append("Java");
+        strBld1.append("Learn");
 
-        System.out.println(strBld);
-
-
-        //	Example 2:
-        StringBuilder strBld1 = new StringBuilder("John ");
-        strBld1.append("Woo ").append("Leo");
         System.out.println(strBld1);
 
 
+        //Example 2:
+
+        StringBuilder strBld2 = new StringBuilder("John ");
+        strBld2.append("Woo ").append("Leo");
+
+        System.out.println(strBld2);
+
     }
-
-
 }

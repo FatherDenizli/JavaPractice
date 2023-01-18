@@ -27,6 +27,11 @@ public class TwoDimensionalArray {
         }
         System.out.println(sum);
 
+        // Object data type array
+        Object [][] arr={ {"Sally", 1} ,   {"Angie", 3} ,   {"Mary", "Chris", "Mark",5} };
+
+        System.out.println(Arrays.deepToString(arr));
+
 
     }
 

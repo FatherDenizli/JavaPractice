@@ -8,7 +8,7 @@ public class TwoDimensionalArray {
 
         String brr[][]= { {"Sally", "Katty"} ,   {"Angie"} ,   {"Mary", "Chris", "Mark"} };
 
-add git .
+
         System.out.println(Arrays.deepToString(brr));
         System.out.println(brr[2][1]);
         System.out.println(brr[0][0]);

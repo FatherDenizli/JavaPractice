@@ -1,26 +1,17 @@
 package stringmanipulations;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Arrays;
-
-public class SplitSample {
-
+public class AlphaCharactersInAString {
 
     public static void main(String[] args) {
 
-        String str = "1 2 3 4";
-        str = str.replaceAll(" ", "");
+        String given="wefeqf878979797fewfewrf879797efds&^&^*^*^";
 
-        String[] arr = str.split("");
+        String replaced=given.replaceAll("[^A-Za-z]","");
+        System.out.println(replaced.length());
 
-        System.out.println(Arrays.deepToString(arr));
+        System.out.println(replaced);
 
-
-        for (int i = 0; i < arr.length; i++) {
-
-            System.out.print(Integer.valueOf(arr[i]) + ",");
-/* regex: Regex means "Regular Expressions"
+        /* regex: Regex means "Regular Expressions"
          regex represents a group of data.
           All digits :[0-9]
           All lowercase letters: [a-z]
@@ -35,7 +26,6 @@ public class SplitSample {
 
           */
 
-        }
 
         // caunt the alphabetical characters in a givenString.
         //TomHanks!.. ==>
@@ -57,7 +47,25 @@ public class SplitSample {
 
         // int numOfLetters3 = name.replaceAll()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
+
+
 
 
 }

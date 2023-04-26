@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>jenkins-example</artifactId>
+    <artifactId>maven_testbuild</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
